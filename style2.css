@@ -37,6 +37,7 @@ body {
 }
 
 .logo {
+	text-decoration: none;
 	position: absolute;
     padding: 0px 19.9px;
     color: #fff;
