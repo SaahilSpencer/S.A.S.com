@@ -1,0 +1,193 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+  margin: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	list-style-type: none;
+}
+
+.sign {
+	max-width: 100px;
+	padding: 20px 0px;
+	-moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+.background {
+	background-color: #E8E8E8;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.header {
+	display: block;
+  height: 70px;
+	background-color: #1E1E1E;
+  padding: 20px 0px;
+}
+
+.logo {
+	position: absolute;
+    padding: 0px 19.9px;
+    color: #fff;
+    font-family: Segoe UI;
+    font-size: 53px;
+    font-weight: bold;
+    background-color: #FF0000;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, .36);
+}
+
+.search-button {
+  float: right;
+  top: 25px;
+  right: 91px;
+  color: #fff;
+}
+
+.ellipse {
+  padding: 1px;
+  width: 21px;
+  height: 21px;
+  border-radius: 100px;
+  border: 2px solid;
+}
+
+.handle {
+  width: 2px;
+  height: 18px;
+  transform: rotate(-40deg);
+  margin-left: 23px;
+  margin-top: 18px;
+  border: 1px solid;
+}
+
+.search-button:hover {
+  color: #FF0000;
+}
+
+li {
+  padding: 20px 0px;
+  color: #fff;
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 23px;
+  box-sizing: border-box;
+  margin-right: 75px;
+  float: right;
+  list-style-type: none;
+}
+
+li:hover {
+  color: #FF0000;
+}
+
+.stuff {
+	text-decoration: none;
+	color: #1E1E1E;
+}
+
+.stuff:hover {
+	color: #FFFFFF;
+}
+
+.product-image {
+	-moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-user-drag: none;
+  -webkit-touch-callout: none;
+	max-width: 272px;
+}
+
+li2 {
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+.name {
+	line-height: 3.5;
+	position: absolute;
+	width: 271.45px;
+	height: 100px;
+	margin: 0px 0px;
+  color: #fff;
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 15px;
+  list-style-type: none;
+	text-align: center;
+	background-color: #C4C4C4;
+	color: #1E1E1E;
+}
+
+.name:hover {
+	background-color: #1E1E1E;
+	color: #FFFFFF;
+}
+
+.product {
+	margin: -50px 0px;
+}
+
+.image {
+	-moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-user-drag: none;
+  -webkit-touch-callout: none;
+	max-width: 700px;
+}
+
+h1 {
+	text-decoration: none;
+	color: #1E1E1E;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+
+h3 {
+	text-decoration: none;
+	color: #3D3D3D;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+
+.color1 {
+	width: 60px;
+	height: 60px;
+	background-color: #715A60;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.addtocart- {
+	font-family: Tahoma;
+	text-decoration: none;
+	color: #1E1E1E;
+	margin: 20px 0px;
+	padding: 10px 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.addtocart-:hover {
+	color: white;
+	background-color: #FF0000;
+}
